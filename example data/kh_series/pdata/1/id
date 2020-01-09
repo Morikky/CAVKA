@@ -1,0 +1,12 @@
+##TITLE=Parameter List, ParaVision 6.0.1
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=imaging
+$$ 2019-05-28 14:20:08.667 +0200  imaging@rabi
+$$ /opt/PV6.0.1/data/imaging/20190528_101304_HM_training_GAG_DF_2_1_46/20/pdata/1/id
+$$ process /opt/PV6.0.1/prog/bin/parxserver
+##$DATASET_KEY=( 65 )
+<2.16.756.5.5.100.8323328.46153.1559046008.16405>
+##END=
+$$ File finished by PARX at 2019-05-28 14:20:08.667 +0200

@@ -1,0 +1,15 @@
+##TITLE=Parameter List, ParaVision 6.0.1
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=imaging
+$$ 2019-05-28 11:57:10.370 +0200  imaging@rabi
+$$ /opt/PV6.0.1/data/imaging/20190528_101304_HM_training_GAG_DF_2_1_46/7/pdata/1/methreco
+$$ process /opt/PV6.0.1/prog/mod/acq_out
+##$RecoMethMode=Default
+##$WeightingMode=positive_mask
+##$MaskWeighting=4
+##$GaussBroadening=1
+$$ @vis= RecoMethMode MethodRecoGroup
+##END=
+$$ File finished by PARX at 2019-05-28 11:57:10.370 +0200

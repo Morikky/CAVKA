@@ -1,0 +1,268 @@
+##TITLE=Parameter List, ParaVision 6.0.1
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=imaging
+$$ 2019-05-28 15:26:46.712 +0200  imaging@rabi
+$$ /opt/PV6.0.1/data/imaging/20190528_101304_HM_training_GAG_DF_2_1_46/18/pdata/1/reco
+$$ process /opt/PV6.0.1/prog/bin/parxserver
+##$RECO_mode=USER_MODE
+##$RecoAutoDerive=No
+##$RecoDim=2
+##$RecoObjectsPerRepetition=1
+##$RecoObjectsPerSetupStep=1
+$$ @vis= RECO_mode RecoAutoDerive RecoDim RecoObjectsPerRepetition
+##$RecoNumRepetitions=52
+##$RECO_inp_order=NO_REORDERING
+##$RECO_inp_size=( 2 )
+32 32
+$$ @vis= RecoObjectsPerSetupStep RecoNumRepetitions RECO_inp_order
+##$RECO_ft_size=( 2 )
+32 32
+##$RECO_fov=( 2 )
+1.2 1.2
+##$RECO_size=( 2 )
+32 32
+##$RECO_offset=( 2, 1 )
+0 0
+##$RECO_regrid_mode=NO_REGRID
+##$RECO_regrid_offset=0
+##$RECO_ramp_gap=0
+##$RECO_ramp_time=0
+##$RECO_ne_mode=NO_NAV_DATA
+##$RECO_ne_dist=NeNoInterleave
+##$RECO_ne_dens=NeCorrPerScan
+##$RECO_ne_type=NAV_PHASE
+##$RECO_bc_mode=( 2 )
+NO_BC NO_BC
+##$RECO_bc_start=( 2 )
+24 24
+##$RECO_bc_len=( 2 )
+8 8
+##$RECO_dc_offset=( 2 )
+0 0
+##$RECO_dc_divisor=1
+##$RECO_bc_coroff=( 2 )
+0 0
+##$RECO_qopts=( 2 )
+COMPLEX_CONJUGATE NO_QOPTS
+##$RECO_wdw_mode=( 2 )
+NO_WDW NO_WDW
+$$ @vis= RECO_inp_size RECO_ft_size RECO_fov RECO_size RECO_ne_mode
+##$RECO_lb=( 2 )
+-0.5 -0.5
+##$RECO_sw=( 2 )
+4000 1
+##$RECO_gb=( 2 )
+0.5 0.5
+##$RECO_sbs=( 2 )
+1 1
+##$RECO_tm1=( 2 )
+0.25 0.25
+##$RECO_tm2=( 2 )
+0.75 0.75
+##$RECO_ft_mode=( 2 )
+COMPLEX_FT COMPLEX_FT
+##$RECO_pc_mode=( 2 )
+FIRST_ORDER_PC FIRST_ORDER_PC
+##$RECO_pc_lin=( 2 )
+(0, 180) (0, 180)
+##$RECO_rotate=( 2, 1 )
+0.5 0.5
+##$RECO_ppc_mode=NO_PPC
+##$RECO_ref_image=0
+##$RECO_nr_supports=0.4
+##$RECO_sig_threshold=0.15
+##$RECO_ppc_degree=1
+##$RECO_ppc_coeffs=( 1, 2, 2 )
+0 0 0 0
+##$RECO_dc_elim=Yes
+##$RECO_transposition=( 1 )
+0
+$$ @vis= RECO_wdw_mode RECO_ft_mode RECO_pc_mode RECO_pc_lin RECO_rotate
+##$RECO_image_type=MAGNITUDE_IMAGE
+##$RECO_image_threshold=0.15
+##$RECO_ir_scale=10
+##$RECO_wordtype=_16BIT_SGN_INT
+##$RECO_map_mode=ABSOLUTE_MAPPING
+##$RECO_map_range=( 2 )
+-2147483647 2147483647
+##$RECO_map_percentile=( 2 )
+1 99.9
+##$RECO_map_error=0.025
+##$RECO_globex=( 52 )
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0
+##$RECO_minima=( 52 )
+108.770763924931 35.9714863845563 35.6598655675595 122.20164212316 
+41.5978324253538 106.798674427801 13.3663464270929 256.246231399277 
+49.90220478009 30.2894309346799 37.6066317851824 56.4083904463243 
+77.5979339883466 46.9114544309058 75.628518417434 29.3628998799022 
+76.7864725134818 45.0725074711797 43.9201796372517 116.445254274296 
+131.143506372423 101.77216976116 44.4106952385644 101.004972352567 
+116.028584472796 126.487160079173 77.6873877054453 115.679693957265 
+128.086495711019 33.9971544844287 172.692992445483 81.6771300199821 
+73.4449969381108 163.051357468284 82.3240178977562 210.649018120168 
+83.8797002446942 57.4945305114365 96.5598031032695 124.64322046133 
+86.0107327583878 66.8589672861898 53.8280498671251 99.5296549111011 
+82.7000941369386 84.4264768482117 99.8280650895143 90.8503665839858 
+69.3253973119525 38.8152574969083 87.1235891262971 36.4445438132348
+##$RECO_maxima=( 52 )
+27173.9760163738 27244.5596139226 28634.4373289278 30976.4754588063 
+25884.1039045999 28729.9090980282 31985.9630714611 27920.1317456892 
+28127.4698068755 27858.0871369439 30200.329910349 30496.1972978152 
+26717.7562424361 28921.2955280505 29046.70801561 29941.4152922951 
+26750.7952003773 31293.4655478134 32766.5 29310.773558251 29665.5648399847 
+31199.4683523939 28001.7866520227 29105.264631088 28290.0170190759 
+27354.8308541443 27337.9846088817 30341.5333316088 31263.2223180774 
+32275.7751882229 29063.0590184943 28719.0037748274 27767.9396549617 
+27889.3700786245 29649.8994018873 25975.4431262471 25773.7754414693 
+29034.9426125135 29395.5823930793 31739.8758950113 31678.6300113371 
+31850.951214746 25565.3648172979 30530.6508973412 27178.2690189108 
+28422.5090434121 28508.4228714187 27928.075005775 28374.5085186182 
+28788.1762515679 28288.3371031751 30381.4117084404
+##$RECO_map_min=( 52 )
+-85.312547690468 -85.312547690468 -85.312547690468 -85.312547690468 
+-85.312547690468 -85.312547690468 -85.312547690468 -85.312547690468 
+-85.312547690468 -85.312547690468 -85.312547690468 -85.312547690468 
+-85.312547690468 -85.312547690468 -85.312547690468 -85.312547690468 
+-85.312547690468 -85.312547690468 -85.312547690468 -85.312547690468 
+-85.312547690468 -85.312547690468 -85.312547690468 -85.312547690468 
+-85.312547690468 -85.312547690468 -85.312547690468 -85.312547690468 
+-85.312547690468 -85.312547690468 -85.312547690468 -85.312547690468 
+-85.312547690468 -85.312547690468 -85.312547690468 -85.312547690468 
+-85.312547690468 -85.312547690468 -85.312547690468 -85.312547690468 
+-85.312547690468 -85.312547690468 -85.312547690468 -85.312547690468 
+-85.312547690468 -85.312547690468 -85.312547690468 -85.312547690468 
+-85.312547690468 -85.312547690468 -85.312547690468 -85.312547690468
+##$RECO_map_max=( 52 )
+85.312547690468 85.312547690468 85.312547690468 85.312547690468 
+85.312547690468 85.312547690468 85.312547690468 85.312547690468 
+85.312547690468 85.312547690468 85.312547690468 85.312547690468 
+85.312547690468 85.312547690468 85.312547690468 85.312547690468 
+85.312547690468 85.312547690468 85.312547690468 85.312547690468 
+85.312547690468 85.312547690468 85.312547690468 85.312547690468 
+85.312547690468 85.312547690468 85.312547690468 85.312547690468 
+85.312547690468 85.312547690468 85.312547690468 85.312547690468 
+85.312547690468 85.312547690468 85.312547690468 85.312547690468 
+85.312547690468 85.312547690468 85.312547690468 85.312547690468 
+85.312547690468 85.312547690468 85.312547690468 85.312547690468 
+85.312547690468 85.312547690468 85.312547690468 85.312547690468 
+85.312547690468 85.312547690468 85.312547690468 85.312547690468
+##$RECO_map_offset=( 52 )
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0
+##$RECO_map_slope=( 52 )
+384.075975774206 384.075975774206 384.075975774206 384.075975774206 
+384.075975774206 384.075975774206 384.075975774206 384.075975774206 
+384.075975774206 384.075975774206 384.075975774206 384.075975774206 
+384.075975774206 384.075975774206 384.075975774206 384.075975774206 
+384.075975774206 384.075975774206 384.075975774206 384.075975774206 
+384.075975774206 384.075975774206 384.075975774206 384.075975774206 
+384.075975774206 384.075975774206 384.075975774206 384.075975774206 
+384.075975774206 384.075975774206 384.075975774206 384.075975774206 
+384.075975774206 384.075975774206 384.075975774206 384.075975774206 
+384.075975774206 384.075975774206 384.075975774206 384.075975774206 
+384.075975774206 384.075975774206 384.075975774206 384.075975774206 
+384.075975774206 384.075975774206 384.075975774206 384.075975774206 
+384.075975774206 384.075975774206 384.075975774206 384.075975774206
+##$RECO_byte_order=littleEndian
+$$ @vis= RECO_transposition RECO_image_type RECO_wordtype RECO_map_mode
+##$RECO_time=<2019-05-28T15:26:46,708+0200>
+##$RECO_abs_time=(1559050006, 708, 120)
+##$RECO_base_image_uid=( 65 )
+<2.16.756.5.5.100.8323328.84090.1559050006.1>
+##$RecoUserUpdate=Yes
+##$RecoReverseSegment=0
+##$RecoB0DemodOff=0
+##$RecoB0DemodDelay=0
+##$RecoFTOrder=( 2 )
+0 1
+##$RecoHalfFT=( 2 )
+No No
+$$ @vis= RECO_byte_order RecoUserUpdate RecoB0DemodOff RecoWindow RecoFTOrder
+##$RecoHalfFTPos=( 2 )
+16 16
+##$RecoCorrPhase=RecoCorrPhaseOff
+##$RecoCorrPhaseRef=-1
+##$RECO_map_user_slope=1
+##$RECO_map_user_offset=0
+##$RecoNumInputChan=1
+$$ @vis= RecoHalfFT RecoHalfFTPos RecoCorrPhase RecoCorrPhaseRef RecoMap
+##$RecoScaleChan=( 1 )
+1
+##$RecoPhaseChan=( 1 )
+0
+##$RecoCombineMode=SumOfSquares
+##$RecoSortDim=1
+$$ @vis= RecoNumInputChan RecoScaleChan RecoPhaseChan RecoCombineMode
+##$RecoSortSize=( 1 )
+32
+##$RecoSortRange=( 1 )
+32
+##$RecoSortSegment=( 1 )
+0
+##$RecoSortMaps=( 32 )
+16 15 17 14 18 13 19 12 20 11 21 10 22 9 23 8 24 7 25 6 26 5 27 4 28 3 29 2 
+30 1 31 0
+$$ @vis= RecoSortDim RecoSortSize RecoSortRange RecoSortSegment RecoSortMaps
+##$RecoGrappaAccelFactor=1
+##$RecoGrappaKernelRead=0
+##$RecoGrappaKernelPhase=0
+##$RecoGrappaNumRefRead=0
+##$RecoGrappaNumRefPhase=0
+##$RecoGrappaIncludeRefLines=Yes
+##$RecoGrappaReadCenter=0
+##$RecoGrappaPhaseCenter=0
+##$RecoGrappaTruncThresh=-1
+##$RecoRegridN=Off
+$$ @vis= RecoSortGroup RecoGrappaAccelFactor RecoGrappaGroup RecoRegridN
+##$RecoStageNrPasses=4
+##$RecoStagePasses=( 4 )
+(<FIRSTPASS>, 0) (<FTPASS1>, 1) (<PREPPASS>, 2) (<MAPPASS>, 3)
+##$RecoStageNrNodes=23
+##$RecoStageNodes=( 23 )
+(<input>, 0, <RecoFileSource 
+Q{numChan=1;byteOrder=\<BYTORDA\>;contData=false;initFromACQP=true;}>) 
+(<input>, 0, <RecoQueueSink S{initQueue=true;initOnce=true;}>) (<compute>, 0, 
+<RecoQueueSource Q0{initFromACQP=true;initOnce=true;}>) (<compute>, 0, 
+<RecoBufferSink S0{procDim=1;frameDim=2;bufferId="FIRSTPASS0";memId="out0"}>) 
+(<compute>, 0, <RecoCastFilter CAST0{dataRep=FLOAT; wordSize=8}>) (<compute>, 
+0, <RecoFTShiftFilter FTS0{frameDim=2; winDirection=0; 
+shift=\<RECO_rotate[0]\>; exponent=1}>) (<compute>, 0, <RecoFTFilter 
+FT0{direction=0; exponent=1}>) (<compute>, 0, <RecoSortFilter 
+REORD0{sortDim=\<RecoSortDim\>; sortSize=\<RecoSortSize\>; 
+sortRange=\<RecoSortRange\>; sortSegment=\<RecoSortSegment\>; 
+sortMaps=\<RecoSortMaps\>; frameDim = 2}>) (<compute>, 1, <RecoBufferSource 
+Q0{procDim=1;frameDim=2;bufferId="FIRSTPASS0";memId="out0"}>) (<compute>, 1, 
+<RecoBufferSink S0{procDim=1;frameDim=2;bufferId="FTPASS10";memId="in0"}>) 
+(<compute>, 1, <RecoFTShiftFilter FTS0{frameDim=2; winDirection=1; 
+shift=\<RECO_rotate[1]\>; exponent=1}>) (<compute>, 1, <RecoFTFilter 
+FT0{direction=1;exponent=1;}>) (<compute>, 2, <RecoBufferSource 
+Q0{procDim=2;frameDim=2;bufferId="FTPASS10";memId="in0"}>) (<compute>, 2, 
+<RecoBufferSink S0{procDim=2;frameDim=2;bufferId="PREPPASS0";memId="out0"}>) 
+(<compute>, 2, <RecoMagnitudeFilter G0>) (<compute>, 2, <RecoMinMaxFilter 
+M0{map_min=\<RECO_map_min\>;map_max=\<RECO_map_max\>;}>) (<compute>, 3, 
+<RecoBufferSource Q0{procDim=2;frameDim=2;bufferId="PREPPASS0";memId="out0"}>)
+ (<compute>, 3, <RecoQueueSink S0>) (<compute>, 3, <RecoMapFilter 
+MAP0{symmetricMode=true;minima=\<RECO_minima\>;maxima=\<RECO_maxima\>;slope=\<RECO_map_slope\>;offset=\<RECO_map_offset\>;map_min=\<RECO_map_min\>;map_max=\<RECO_map_max\>;rangeMin=-32766.500000;rangeMax=32766.500000;perObjectMode=false;cutoffMode=true;}>) (<compute>, 3, <RecoCastFilter CAST0{dataRep=SIGNED;wordSize=2}>) (<output>, 3, <RecoQueueSource Q{procDim=2;initFromRECO=true;initOnce=true;}>) (<output>, 3, <RecoImageDisplayFilter DISP{showAll=true;}>) (<output>, 3, <RecoFileSink S{writePars=true;shuffle=false;filename="2dseq";numChans=1;}>)
+$$ @vis= RecoRegridNGroup RecoStageNrPasses RecoStagePasses RecoStageNrNodes
+##$RecoStageNrEdges=17
+##$RecoStageEdges=( 17 )
+(<input>, 0, <Q-\>S>) (<compute>, 0, <Q0-\>CAST0>) (<compute>, 0, 
+<CAST0-\>FTS0>) (<compute>, 0, <FTS0-\>FT0>) (<compute>, 0, <FT0-\>REORD0>) 
+(<compute>, 0, <REORD0-\>S0>) (<compute>, 1, <Q0-\>FTS0>) (<compute>, 1, 
+<FTS0-\>FT0>) (<compute>, 1, <FT0-\>S0>) (<compute>, 2, <Q0-\>G0>) (<compute>,
+ 2, <G0-\>M0>) (<compute>, 2, <M0-\>S0>) (<compute>, 3, <Q0-\>MAP0>) 
+(<compute>, 3, <MAP0-\>CAST0>) (<compute>, 3, <CAST0-\>S0>) (<output>, 3, 
+<Q-\>DISP>) (<output>, 3, <DISP-\>S>)
+$$ @vis= RecoStageNodes RecoStageNrEdges RecoStageEdges RecoStageGroup
+##$GS_reco_display=Yes
+##$GO_reco_display=Yes
+##$GO_reco_each_nr=No
+##$GO_max_reco_mem=0
+$$ @vis= RecoModeUser GS_reco_display RECO_GS GO_reco_display GO_reco_each_nr
+##$RecoPrototype=No
+$$ @vis= GO_max_reco_mem RECO_GO RecoPrototype RECO
+##END=
+$$ File finished by PARX at 2019-05-28 15:26:46.713 +0200
