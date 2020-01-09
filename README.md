@@ -3,4 +3,4 @@ A working exapmle (data + code) for the CAVKA method (link to article)- A method
 
 Python code available as:
 1) Jupyter notebook
-2) script
+2) Script
